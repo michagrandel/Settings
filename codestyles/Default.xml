@@ -1,0 +1,11 @@
+<code_scheme name="Default">
+  <option name="LINE_SEPARATOR" value="&#10;" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  <Python>
+    <option name="OPTIMIZE_IMPORTS_JOIN_FROM_IMPORTS_WITH_SAME_SOURCE" value="true" />
+  </Python>
+  <codeStyleSettings language="Python">
+    <option name="BLANK_LINES_AROUND_CLASS" value="2" />
+  </codeStyleSettings>
+</code_scheme>

@@ -1,0 +1,9 @@
+<toolSet name="External Qt Tools">
+  <tool name="Compile Qt Resource File" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pyside-rcc" />
+      <option name="PARAMETERS" value="-o &quot;$ProjectFileDir$/$ProjectName$/resources/$FileNameWithoutExtension$_rc.py&quot; &quot;$FileDirRelativeToProjectRoot$/$FileName$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

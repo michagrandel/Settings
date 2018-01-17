@@ -1,0 +1,16 @@
+<toolSet name="Profiling">
+  <tool name="Generate profile" description="Generate a profile file for a python script" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="python" />
+      <option name="PARAMETERS" value="-m cProfile -o &quot;$ProjectFileDir$/developer resources/profiles/$FileNameWithoutExtension$.profile&quot; $FileDirRelativeToProjectRoot$/$FileName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="snakeviz" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="snakeviz" />
+      <option name="PARAMETERS" value="&quot;$FilePathRelativeToProjectRoot$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

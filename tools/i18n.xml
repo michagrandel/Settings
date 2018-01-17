@@ -1,0 +1,16 @@
+<toolSet name="i18n">
+  <tool name="Create gettext-translation files" description="Create POT-Files for translation of python code" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="python" />
+      <option name="PARAMETERS" value="$PyInterpreterDirectory$\Tools\i18n\pygettext.py -d $ProjectName$ -p $ProjectFileDir$ $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Extract messages with pybabel" description="Extract i18n messages and create a PO-file using pybabel" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="pybabel" />
+      <option name="PARAMETERS" value="extract -c &quot;@translate,@context&quot; -o $ProjectFileDir$\$ProjectName$_$/FileDirRelativeToProjectRoot$.pot $ProjectFileDir$\$FileDirRelativeToProjectRoot$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

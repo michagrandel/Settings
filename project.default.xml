@@ -1,0 +1,139 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="OctalEscape" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyArgumentEqualDefaultInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyClassicStyleClassInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ourVersions">
+              <value>
+                <list size="3">
+                  <item index="0" class="java.lang.String" itemvalue="2.7" />
+                  <item index="1" class="java.lang.String" itemvalue="3.5" />
+                  <item index="2" class="java.lang.String" itemvalue="3.6" />
+                </list>
+              </value>
+            </option>
+          </inspection_tool>
+          <inspection_tool class="PyMandatoryEncodingInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+          <inspection_tool class="RestRoleInspection" enabled="true" level="WARNING" enabled_by_default="true">
+            <option name="ignoredRoles">
+              <value>
+                <list size="0" />
+              </value>
+            </option>
+          </inspection_tool>
+        </profile>
+        <version value="1.0" />
+      </component>
+      <component name="IssueNavigationConfiguration">
+        <option name="links">
+          <list>
+            <IssueNavigationLink>
+              <option name="issueRegexp" value="\bfixe[sd]\b(#\d+)\b" />
+              <option name="linkRegexp" value="https://github.com/michagrandel/project/issues/$1" />
+            </IssueNavigationLink>
+            <IssueNavigationLink>
+              <option name="issueRegexp" value="\bclose[sd]?\b(#\d+)\b" />
+              <option name="linkRegexp" value="https://github.com/michagrandel/project/issues/$1" />
+            </IssueNavigationLink>
+          </list>
+        </option>
+      </component>
+      <component name="PreferredVcsStorage">
+        <preferredVcsName>ApexVCS</preferredVcsName>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="Micha" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>General</id>
+              </State>
+              <State>
+                <id>ReST</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Python</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.13 (C:\Developer\Python27\python.exe)" project-jdk-type="Python SDK" />
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+        <property name="settings.editor.splitter.proportion" value="0.25674325" />
+        <property name="Gitflow.featureFetchOrigin" value="false" />
+        <property name="Gitflow.featureKeepRemote" value="false" />
+        <property name="Gitflow.featureKeepLocal" value="false" />
+        <property name="Gitflow.featureNoFastForward" value="true" />
+        <property name="Gitflow.releaseFetchOrigin" value="false" />
+        <property name="Gitflow.pushOnFinishRelease" value="false" />
+        <property name="Gitflow.dontTagRelease" value="false" />
+        <property name="Gitflow.useCustomTagCommitMessage" value="false" />
+        <property name="Gitflow.customTagCommitMessage" value="Tagging version %name%" />
+        <property name="Gitflow.hotfixFetchOrigin" value="false" />
+        <property name="Gitflow.pushOnFinishHotfix" value="false" />
+        <property name="Gitflow.dontTagHotfix" value="false" />
+        <property name="Gitflow.useCustomHotfixTagCommitMessage" value="false" />
+        <property name="Gitflow.customHotfixTagCommitMessage" value="Tagging version %name%" />
+      </component>
+      <component name="PyConsoleOptionsProvider">
+        <option name="myPythonConsoleState">
+          <console-settings is-module-sdk="true">
+            <option name="myUseModuleSdk" value="true" />
+          </console-settings>
+        </option>
+      </component>
+      <component name="PyDebuggerOptionsProvider">
+        <option name="mySaveCallSignatures" value="true" />
+      </component>
+      <component name="SvnConfiguration">
+        <configuration>C:\Users\Micha\AppData\Roaming\Subversion</configuration>
+      </component>
+      <component name="TerminalProjectOptionsProvider">
+        <option name="myStartingDirectory" value="C:\Users\Micha" />
+      </component>
+      <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <last-edited>py</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2303207" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ShowPopupMenu" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="context_menu" />
+  </action>
+</keymap>
