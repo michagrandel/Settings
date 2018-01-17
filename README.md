@@ -1,2 +1,0 @@
-# Settingstest
-Test settings repository
