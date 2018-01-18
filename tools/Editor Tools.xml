@@ -1,8 +1,8 @@
 <toolSet name="Editor Tools">
   <tool name="Bootstrap project files" description="Initialize project and settings" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="python" />
-      <option name="PARAMETERS" value="C:\Users\Micha\Projekte\ProjectSetup\script\quickstart.py" />
+      <option name="COMMAND" value="quickstart.py" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
