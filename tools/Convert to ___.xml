@@ -2,7 +2,7 @@
   <tool name="Convert Yaml to JSON" description="convert yaml files to Json files and save it in the same directory" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="python" />
-      <option name="PARAMETERS" value="C:\Users\Micha\Projekte\Playground\scripts\yaml2json.py $FilePath$" />
+      <option name="PARAMETERS" value="C:\Users\Micha\Scripts\yaml2json.py $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
