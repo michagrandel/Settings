@@ -31,28 +31,28 @@
     <exec>
       <option name="COMMAND" value="py" />
       <option name="PARAMETERS" value="-2.7-32 -m pip install --upgrade pip" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Micha" />
     </exec>
   </tool>
   <tool name="Update pip (Python 2.7 64bit)" description="Update pip for Python 2.7 64bit" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="py" />
       <option name="PARAMETERS" value="-2.7 -m pip install --upgrade pip" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Micha" />
     </exec>
   </tool>
   <tool name="Update pip (Python 3.6)" description="Update pip for Python 3.6" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="py" />
       <option name="PARAMETERS" value="-3.6-32 -m pip install --upgrade pip" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Micha" />
     </exec>
   </tool>
   <tool name="Update pip (Python 3.6 64bit)" description="Update pip for Python 3.6 64bit" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="py" />
       <option name="PARAMETERS" value="-3.6 -m pip install --upgrade pip" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Micha" />
     </exec>
   </tool>
 </toolSet>
