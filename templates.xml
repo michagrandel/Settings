@@ -1,0 +1,16 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="Python" />
+          <option name="key" value="iter" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Python" />
+          <option name="key" value="itere" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>

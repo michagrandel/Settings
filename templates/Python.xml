@@ -1,0 +1,70 @@
+<templateSet group="Python">
+  <template name="main" value="def main(args):&#10;    # type: (List[AnyStr]) -&gt; int &#10;    &quot;&quot;&quot; main entry point &quot;&quot;&quot;&#10;    $END$&#10;    return 0&#10;    &#10;if __name__ == '__main__':&#10;    main(sys.args)" description="if __name__ == '__main__'" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="for" value="for $VAR$ in $ITERABLE$:&#10;    $END$" description="Iterate (for ... in ...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="pyIterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="collectionElementName(ITERABLE)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="enumerate" value="for $INDEX$, $VAR$ in enumerate($ITERABLE$):&#10;    $END$" description="Iterate (for ... in enumerate)" toReformat="false" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="pyIterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="collectionElementName(ITERABLE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="prop" value="@property&#10;def $NAME$(self):&#10;    # type: (None) -&gt; $RETURN$&#10;    &quot;&quot;&quot;&#10;    $DOCSTRING$&#10;    &#10;    :return: $NAME$&#10;&#10;    &quot;&quot;&quot;&#10;    return self._$NAME$" description="Property getter" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOCSTRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="props" value="@property&#10;def $NAME$(self):&#10;    # type: (None) -&gt; $TYPE$&#10;    &quot;&quot;&quot;&#10;    get $NAME$&#10;    &#10;    :return: $NAME$&#10;&#10;    &quot;&quot;&quot;&#10;    return self._$NAME$&#10;&#10;@$NAME$.setter&#10;def $NAME$(self, value):&#10;    # type: ($TYPE$) -&gt; None&#10;    &quot;&quot;&quot;&#10;    set $NAME$&#10;    &#10;    :param value: value for $NAME$&#10;    &quot;&quot;&quot;&#10;    self._$NAME$ = value" description="Property getter/setter" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="propsd" value="@property&#10;def $NAME$(self):&#10;    # type: (None) -&gt; $TYPE$&#10;    &quot;&quot;&quot;&#10;    get $NAME$&#10;    &#10;    :return: $NAME$&#10;&#10;    &quot;&quot;&quot;&#10;    return self._$NAME$&#10;&#10;@$NAME$.setter&#10;def $NAME$(self, value):&#10;    # type: ($TYPE$) -&gt; None&#10;    &quot;&quot;&quot;&#10;    set $NAME$&#10;    &#10;    :param value: value for $NAME$&#10;    &quot;&quot;&quot;&#10;    self._$NAME$ = value&#10;&#10;@$NAME$.deleter&#10;def $NAME$(self):&#10;    # type: (None) -&gt; None&#10;    &quot;&quot;&quot;&#10;    delete $NAME$&#10;    &#10;    &quot;&quot;&quot;&#10;    del self._$NAME$" description="Property getter/setter/deleter" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="supersix" value="super().$method$($end$) if six.PY3 else super($class$, self).$method$($end$)&#10;" description="'super(...)' call (Py2/3 compatible)" toReformat="false" toShortenFQNames="true">
+    <variable name="class" expression="pyClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="method" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="six.PY3" value="# todo: simplify when #python2 #compatibility is dropped&#10;if six.PY3:&#10;    $py3$&#10;else:&#10;    $py2$" description="if six.PY3: (...) else: (...)" toReformat="false" toShortenFQNames="true">
+    <variable name="py3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="py2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="def" value="def $NAME$(self):&#10;    # type: (None) -&gt; None&#10;    &quot;&quot;&quot; $DOCSTRING$ &quot;&quot;&quot;&#10;    $END$" description="def method(self): ..." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOCSTRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="def1" value="def $NAME$(self, $PARAM$):&#10;    # type: ($TYPE$) -&gt; $RETURN$&#10;    &quot;&quot;&quot; &#10;    $DOCSTRING$&#10;    &#10;    :param $PARAM$: $DOC_PARAM$&#10;    &#10;    :return: $DOC_RETURN$&#10;    &#10;    &quot;&quot;&quot;&#10;    $END$" description="def method(self, param): ..." toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOCSTRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOC_PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DOC_RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+</templateSet>
