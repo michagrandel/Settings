@@ -9,6 +9,7 @@
       <mapping ext="yapsy-plugin" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="mc" type="PLAIN_TEXT" />
+      <mapping ext="plugin" type="PLAIN_TEXT" />
       <mapping ext="jinja" type="PLAIN_TEXT" />
       <mapping ext="jinja2" type="PLAIN_TEXT" />
       <mapping ext="pot" type="PLAIN_TEXT" />
