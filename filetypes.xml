@@ -7,6 +7,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="feature" type="PLAIN_TEXT" />
       <mapping ext="yapsy-plugin" type="PLAIN_TEXT" />
+      <mapping ext="pluginmanager-plugin" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <mapping ext="mc" type="PLAIN_TEXT" />
       <mapping ext="plugin" type="PLAIN_TEXT" />
