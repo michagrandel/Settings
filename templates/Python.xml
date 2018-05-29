@@ -82,7 +82,7 @@
       <option name="Python_Class" value="true" />
     </context>
   </template>
-  <template name="init" value="def __init__(self):&#10;        super($class$, self).__init__($PARAMS$) if six.PY2 else super($PARAMS$)&#10;        $end$" toReformat="false" toShortenFQNames="true">
+  <template name="init" value="def __init__(self):&#10;        super($class$, self).__init__($PARAMS$) if six.PY2 else super($PARAMS$)&#10;        $end$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
