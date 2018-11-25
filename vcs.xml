@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/michagrandel/Settings.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/musikmeyer/optimierte-gestaltung-und-verwaltung-von-webseiten.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Micha\Projekte" />
